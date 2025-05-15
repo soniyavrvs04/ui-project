@@ -86,7 +86,7 @@ margin:0 10%;
   border-radius: 20px;
   
 }
-svg{
+.main-svg{
   height: 95%;
   position: absolute;
   right:110px;
@@ -112,45 +112,195 @@ bottom:0;
 }
 .customer-thumnail{
   width:100%;
-  position:relative;
-  margin-top: 150px;
-  height: 20vh;
-  bottom:0;
+  height: 100%;
+  margin-top: 180px;
   background-color:var(--color2); 
 }
 .customer-thumnail h1{
+  font-size: 25px;
   display:inline-block;
   justify-content:space-between;
-  align-items:center;
-  padding:0.5rem 7rem;
+  padding:0rem 7.5rem;
   color:var(--color);
 }
 .customer-thumnail p{
+  font-family: var(--font1);
   display:inline-block;
-  justify-content:space-evenly;
-  padding:0 6rem;
-  margin-bottom: 20px;
+  justify-content:space-between;
+  margin-top: -200px;
+  padding:0 6.5rem;
+  font-size: 14px;
+
 }
 .products-container h1{
-  line-height: 30vh;
+  line-height: 25vh;
   text-align: center;
 }
 .products-container .product-article{
   display: flex;
-  line-height: 32vh;
-}
-.products-container .product-article1{
+  line-height: 20vh;
   right:100px;
-  padding:10px 30px;
-bottom: 0;
-}
-.products-container .product-article2{
-  right:200px;
-  padding:10px 40px;
+  padding:1rem 10rem;
   bottom: 0;
+  
 }
-.products-container .product-article3{
-  right:200px;
-  padding:10px 40px;
-  bottom: 0;
+.product-article1 h4{
+  display: flex;
+  line-height: 1vh;
+  width:15vw;
+  text-align: center;
+  padding-left: 90px;
+  
+}
+.product-article2 h4{
+  display: flex;
+  line-height:2vh;
+  width:21vw;
+  text-align: center;
+  padding-left: 40px;
+  
+}
+.product-article3 h4{
+  position: absolute;
+  display: flex;
+  width: 50vw;
+  top:1260px;
+  text-align: center;
+  padding-left:100px;
+  padding-bottom: 100px; 
+}
+.product-article1 p{
+   position: absolute;
+  width:250px;
+  line-height:15px;
+  text-align: center;
+  padding-left: 50px;
+  top:1350px;
+  font-size: 14px;
+}
+.product-article2 p{
+  position: absolute;
+  width:280px;
+  line-height:15px;
+  text-align: center;
+  padding-left: 40px;
+  top:1350px;
+  font-size: 14px;
+}
+.product-article3 p{
+  position: absolute;
+  width:180px;
+  line-height:15px;
+  text-align: center;
+  padding-left: 80px;
+  top:1350px;
+  font-size: 14px;
+}
+.product-article1 button{
+  width:100px;
+  height:30px;
+  border-radius: 10px;
+  border-style: none;
+  margin-left: 100px;
+ background-image:var(--divcolor);
+  
+}
+.product-article2 button{
+  width:100px;
+  height:30px;
+  border-radius: 10px;
+  margin-left: 100px;
+background-image:var(--divcolor);
+border-style: none;
+}
+.product-article3 button{
+  width:100px;
+  height:30px;
+  background-color:var(--color2);
+  background-image:var(--divcolor);
+  border-radius: 10px;
+  margin-left: 100px;
+  border-style: none;
+}
+
+.aboutus h1{
+  font-size:50px;
+ color:var(--color);
+ padding:0 10%;
+}
+.aboutus p{
+  padding:0 10%;
+  width:400px;
+}
+.aboutus img{
+  position: absolute;
+top:1500px;
+right:120px;
+bottom:0;
+}
+hr{
+  position: absolute;
+  top: 1900px;
+  width:100%;
+  height: 2px;
+}
+.Subscribe{
+  position: absolute;
+  width:70%;
+  height: 30%;
+ top:1930px;
+ padding-left: 40px;
+background-image:var(--divcolor);
+justify-content: center;
+align-items: center;
+margin-left: 10%;border-radius: 20px;
+}
+.Subscribe h1{
+  color:var(--color);
+}
+.Subscribe input{
+  width: 30%;
+  height: 15%;
+}
+.Subscribe button{
+  background-color:var(--color);
+  color:white;
+  width: 15%;
+  height: 18%;
+  border-style: none;
+}
+.footer-logo{
+  position: absolute;
+  top:395%;
+ padding: 0 10%;
+}
+
+.footer-icon-list{
+  position: absolute;
+  color:var(--color);
+  display: flex;
+  list-style-type: none;
+  top:413%;
+  left:80px;
+
+}
+.footer-icon-list .footer-icon{
+  padding:0 1.1rem;
+  
+}
+.footer-quick-link{
+  position: absolute;
+  padding-top:170%;
+  padding-left: 40%;
+  display: block;
+  top:22%;
+  list-style-type: none;
+}
+.footer-quick-link li{
+  padding-top: 10px;
+}
+.contact-info{
+  position: absolute;
+  top:395%;
+  padding: 3rem 50rem;
 }
